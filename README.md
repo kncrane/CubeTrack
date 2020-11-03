@@ -1,16 +1,16 @@
 # CubeTrack
 
-This project uses the game engine Unity and the Unity [ML-Agents]https://github.com/Unity-Technologies/ml-agents Toolkit to provide a reinforcement learning environment for training an agent to actively track a moving target. The Unity scenes CubeTrack and VisualCubeTrack are set up to train with the ML-Agents implementation of PPO (Proximal Policy Optimization), a 5-choice discrete action space, vector and visual observations respectively, and the reward function described in this paper by [Luo]http://proceedings.mlr.press/v80/luo18a/luo18a.pdf et al. (2018)
+This project uses the game engine Unity and the Unity [ML-Agents](https://github.com/Unity-Technologies/ml-agents) Toolkit to provide a reinforcement learning environment for training an agent to actively track a moving target. The Unity scenes CubeTrack and VisualCubeTrack are set up to train with the ML-Agents implementation of PPO (Proximal Policy Optimization), a 5-choice discrete action space, vector and visual observations respectively, and the reward function described in this paper by [Luo](http://proceedings.mlr.press/v80/luo18a/luo18a.pdf) et al. (2018)
 
 Blog post on Medium: coming soon
 
-The game objects used in the scene have been sourced from the ML-Agents example environment [PushBlock]https://github.com/Unity-Technologies/ml-agents/tree/master/Project/Assets/ML-Agents/Examples
+The game objects used in the scene have been sourced from the ML-Agents example environment [PushBlock](https://github.com/Unity-Technologies/ml-agents/tree/master/Project/Assets/ML-Agents/Examples)
 
 ## Installation 
 
 1. Download and install Unity (2018.4 or later - 2019.4.4f1 used in dev). Installation through Unity Hub is recommended.
 2. Install Python (3.6.1 or higher - 3.6.9 used in dev). Using a Python virtual environment with pipenv or conda is recommended.
-3. Follow the instructions [here]https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md for installing the various ML-Agents packages NB: cloning the ML-Agents repository is optional 
+3. Follow the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) for installing the various ML-Agents packages NB: cloning the ML-Agents repository is optional 
 4. Clone this repository (if you have cloned the ML-Agents repository, the CubeTrack repository should live within the ML-Agents repository at root level)
 
 ## Watch a trained agent
