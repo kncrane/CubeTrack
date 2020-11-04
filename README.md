@@ -10,10 +10,18 @@ The game objects used in the Unity scenes have been sourced from the ML-Agents e
 
 ## Installation 
 
-1. Download and install Unity (2018.4 or later - 2019.4.4f1 used in dev). Installation through Unity Hub is recommended.
-2. Install Python (3.6.1 or higher - 3.6.9 used in dev). Using a Python virtual environment with something like pipenv or conda is recommended.
+1. Download and install Unity (2018.4 or later) - installation through Unity Hub is recommended
+2. Install Python (3.6.1 or higher) - using a Python virtual environment with something like pipenv or conda is recommended
 3. Follow the instructions [here](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) for installing the various ML-Agents packages (note that cloning the ML-Agents repository is optional) 
 4. Clone this repository (if you have cloned the ML-Agents repository, the CubeTrack repository should live within the ML-Agents repository at root level)
+
+Version information used in development:
+  ml-agents: 0.18.0,
+  ml-agents-envs: 0.18.0,
+  Communicator API: 1.0.0,
+  TensorFlow: 1.14.0,
+  Unity: 2019.4.4f1,
+  Python: 3.6.9
 
 ## Watch a trained agent
 
