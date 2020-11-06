@@ -1,6 +1,6 @@
 # CubeTrack
 
-![CubeTrack](Images/CubeTrack.png)
+![CubeTrack](Images/CubeTrack_nologo.png)
 
 This project uses the game engine Unity and the Unity [ML-Agents](https://github.com/Unity-Technologies/ml-agents) Toolkit to provide a reinforcement learning environment for training an agent to actively track a moving target. The Unity scenes CubeTrack and VisualCubeTrack are set up to use the ML-Agents implementation of PPO (Proximal Policy Optimization), a 5-choice discrete action space, vector and visual observations respectively, and the reward function described in this paper by [Luo](http://proceedings.mlr.press/v80/luo18a/luo18a.pdf) et al. (2018)
 
